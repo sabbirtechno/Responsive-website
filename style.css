@@ -1,0 +1,164 @@
+header, .section-title{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.custom-margin{
+    margin-bottom: 100px;
+}
+header{
+    margin-bottom: 100px;
+}
+
+.nav-logo img{
+    width: 291.11px;
+    
+}
+.custom-nav{
+    padding-right: 117px;
+}
+.custom-nav li{
+    padding: 20px;
+}
+
+header{
+    padding-left: 135px;
+    background-color:#FFFBF0;
+    height: 715px;
+}
+.banner{
+    display:flex;
+    align-items: center;
+    
+    justify-content: space-around;
+}
+.banner h1{
+    font-weight: 500;
+font-size: 80px;
+line-height: 80px;
+
+}
+.banner p{
+    color: #3E3E3E;
+}
+.text-color{
+    color:#FABE4C;
+}
+.banner img{
+    width: 440.72px;
+    
+}
+.custom-btn{
+    background-image: linear-gradient(180deg, #A4BC46, #85A019);
+    padding: 18px 34px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.custom-card {
+    background-color: lightgray;
+    padding: 30px;
+    width: 334px;
+    height: 327px;
+    border-radius: 25px;
+    margin: 20px auto;
+   
+}
+.custom-card img{
+   padding: 20px 50px;
+    
+}
+.card-w{
+    width: 370px;
+    border: 0;
+    border-radius: 20px;
+}
+.custom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    background-color: transparent;
+}
+
+.third-sec img{
+    width: 700px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.horizontal-card img{
+    height: 76px;
+    margin: 27px ;
+}
+.horizontal-card{
+    border: 0;
+    border-radius: 10px;
+}
+
+.exclusive{
+    padding-left: 135px;
+    background-color:#FFFBF0;
+    height: 350px;
+}
+
+.testimonial-sec img{
+    height: 100px;
+    margin: 10px 85px;
+}
+
+.testimonial-sec{
+   margin-left: 170px;
+}
+
+.testimonial-sec .col-3:hover{
+    transform: translateY(-10px);
+}
+.testimonial-sec .col-3{
+    transition: transform 0.5s;
+}
+.ratings, .fa-quote-left{
+    color: #85A019;
+}
+.foot-sec{
+    height: 300px;
+    background-color: #85A019;
+}
+
+.card-body h5{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-3 {width: 25%;}
+.col-md-7 {width: 58.33%;}
+
+@media only screen and (max-width: 768px) {
+    
+    [class*="col-"] {
+      width: 100%;
+      margin: 20px 0;
+     }
+  }
+
+  @media (max-width: 768px){
+    header{
+        padding-left: 10%;
+        height: 930px;
+    }
+    .third-sec img{
+        width: 500px;
+        padding: 10%;
+    }
+    .exclusive{
+        height: 500px;
+    }
+    .testimonial-sec{
+        margin-left: 100px;
+        margin-right: 50px;
+     }
+  }
+
+  
