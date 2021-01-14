@@ -2,4 +2,4 @@
 This is a responsive website sample using Bootstrap
 
 
-Live site link : https://github.com/sabbirtechno/Responsive-website
+Live site link : https://sabbirtechno.github.io/Responsive-website/
